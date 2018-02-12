@@ -11,11 +11,12 @@ sampleのテキストファイルを出力するクラス。　*C:\temp* 下に1
   2. *LineStreamExec.java*
   3. *LineStreamJava8Exec.java*
   4. *LineStreamMultiInputFilesExec.java*
-  
-  
-  1. *txtfile.make.TextFileMaker.java* で作成したファイルを一気に読み込んでOutOfMemoryが発生するクラス。
+  
+ - **各クラスの説明**  
+   
+  1. *txtfile.make.TextFileMaker.java* で作成したファイルを一気に読み込んでOutOfMemoryが発生するクラス。
   2. *txtfile.make.TextFileMaker.java* で作成したファイルを一行づつ読み込み、出力するクラス。
-  3. *2.* をjava8のstreamで実装したクラス。
+  3. *2.* をj1ava8のstreamで実装したクラス。
   4. 指定ディレクトリ配下の複数ファイルを全て一行づつ読み込み、1つのファイルに出力するクラス。
   
 InputStreamとOutputStreamの単なる確認なので、nullチェック等は特に実装なし。  
